@@ -1,0 +1,5 @@
+baseURL = 'https://jannusch.xyz'
+languageCode = 'en-us'
+title = 'Research and Archive'
+theme = 'archie'
+
