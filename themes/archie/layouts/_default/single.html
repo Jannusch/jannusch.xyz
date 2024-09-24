@@ -3,7 +3,7 @@
 	<article>
 		<div class="title">
 			<h1 class="title">{{ .Title }}</h1>
-            <div class="meta">Published at: {{ .Page.Params.conference  }}{{ if .Draft }} <span class="draft-label">Currently under review</span> {{ end }}<br>Last modified: {{ .Site.LastChange | time.Format ":date_long" }}</div>
+            <div class="meta">Published at: {{ .Page.Params.conference  }}{{ if .Draft }} <span class="draft-label">Currently under review</span> {{ end }}<br>Last modified: {{ .Site.Lastmod | time.Format ":date_long" }}</div>
 		</div>
 		{{ if isset .Params "tldr" }}
 		<div class="tldr">
