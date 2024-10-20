@@ -12,3 +12,15 @@ In the future (latest with camera ready version) it will contain references to:
 - implementation details of the paper
 - the simulations results
 - and the analysis scripts to reproduce everything.
+
+
+
+
+{{< mermaid align="left" theme="neutral" >}}
+pie
+    title French Words I Know
+    "Merde" : 50
+    "Oui" : 35
+    "Alors" : 10
+    "Non" : 5
+{{< /mermaid >}}

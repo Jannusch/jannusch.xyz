@@ -6,7 +6,7 @@
     {{- end -}}
   </div>
   <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}  Built with <a href="https://gohugo.io">Hugo</a> | Last modified: {{ .Site.LastChange | time.Format ":date_long" }}
+    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}  Built with <a href="https://gohugo.io">Hugo</a> | Last modified: {{ .Site.Lastmod | time.Format ":date_long" }}
   </div>
 </footer>
 {{ if not hugo.IsServer }}
