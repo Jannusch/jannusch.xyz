@@ -1,0 +1,6 @@
+Authors: {{ .Page.Params.authors }} <br>
+<span>Published: {{ if default false .Page.Params.Published }}
+{{ .Page.Params.Conference }}
+{{ else }}
+<span class="review">currently under review</span>
+{{ end }}</span>

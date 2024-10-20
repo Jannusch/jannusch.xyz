@@ -2,6 +2,7 @@ baseURL = 'https://jannusch.xyz'
 languageCode = 'en-us'
 title = 'Research and Archive'
 theme = 'hugo-book'
+enableGitInfo = true
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -23,3 +24,7 @@ theme = 'hugo-book'
   # Can be overwritten by same param in page frontmatter
   BookComments = false  
   BookServiceWorker = true
+
+# Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  BookRepo = 'https://github.com/jannusch/jannusch.xyz'

@@ -1,5 +1,5 @@
 <div class="flex flex-wrap justify-between">
-Hello
+<div>© <a href="https://www.cms-labs.org/people/bigge">Jannusch Bigge</a> 2024</div>
 {{ if and .GitInfo .Site.Params.BookRepo }}
   <div>
     {{- $date := partial "docs/date" (dict "Date" .GitInfo.AuthorDate.Local "Format" .Site.Params.BookDateFormat) -}}
